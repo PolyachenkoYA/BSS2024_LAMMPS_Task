@@ -13,8 +13,8 @@ mkdir build_${BUILD_NAME}
 cd build_${BUILD_NAME}
 
 module purge
-module load intel/19.1.1.217
-module load intel-mpi/intel/2019.7
+#module load intel/19.1.1.217
+#module load intel-mpi/intel/2019.7
 
 cmake3 -D CMAKE_INSTALL_PREFIX=$HOME/.local \
 -D LAMMPS_MACHINE=${BUILD_NAME} \
